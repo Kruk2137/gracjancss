@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zielewski Z4_html</title>
+</head>
+<body>
+
+<h2>Sposoby podłączania stylów do strony (skrócone zestawienie).</h2>
+
+<b>1) Zewnętrzny arkusz stylów.</b><br>
+<textarea rows="3" cols="70">
+<head>
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+</textarea>
+
+<br><br>
+
+<b>2) Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli dopisanie arkusza do wybranego bloku treści strony.</b><br>
+<textarea rows="2" cols="70">
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea>
+
+<br><br>
+
+<b>3) Wewnętrzny arkusz stylów.</b><br>
+<textarea rows="6" cols="70">
+<head>
+    <style type="text/css">
+        selektor1 { cecha: wartość; cecha2: wartość2... }
+        selektor2 { cecha: wartość; cecha2: wartość2... }
+    </style>
+</head>
+</textarea>
+
+<br><br>
+
+<b>4) Alternatywny arkusz stylów.</b><br>
+<textarea rows="8" cols="70">
+<head>
+    <link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+    <link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+    <link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+</textarea>
+
+<br><br>
+
+<b>5) Import arkusza stylów.</b><br>
+<textarea rows="4" cols="70">
+<style type="text/css">
+    @import url(adres zewnętrznego arkusza stylów);
+</style>
+</textarea>
+</body>
+</html>
+<!--  Zielewski Z4_html  --> 
