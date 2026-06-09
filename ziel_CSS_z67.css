@@ -1,0 +1,21 @@
+.akapit1 {
+    font-size: 22pt;
+    color: blue; 
+}
+
+.akapit1::first-letter {
+    font-size: 117pt;
+    color: gold;
+}
+
+.akapit2 {
+    font-size: 21pt;
+    color: blue;
+}
+
+.akapit2::first-letter {
+    font-size: 117pt;
+    color: silver;
+}
+
+/* Zielewski Z67_css */
